@@ -29,6 +29,10 @@ public class User {
         this.name = name;
     }
 
+    public void isRegistered(){
+        System.out.println("Registered");
+    }
+
     public void borrowBook(){
         System.out.println("Book Borrowed");
     }
@@ -36,4 +40,6 @@ public class User {
     public void returnBook(){
         System.out.println("Book returned");
     }
+
+
 }
